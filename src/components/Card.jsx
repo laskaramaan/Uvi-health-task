@@ -33,6 +33,7 @@ function Card({ items }) {
                             <p className="text-black text-xs font-bold">{items.value}%</p>
                         </CircularProgressbarWithChildren>
                     </div>
+                    {/* Condition messages */}
                     <p className="font-bold text-xs">{items.msg}</p>
                 </div>
                 
