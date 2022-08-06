@@ -39,6 +39,25 @@ function Explain({ items }) {
                     </div>
                 </div>
             </div>
+            {
+                <div className="w-full md:bg-white rounded-lg py-3 mb-9 whitespace-nowrap overflow-auto touch-pan-x cursor-pointer  " >
+                <div className="w-full  flex flex-nowrap gap-[12px] justify-between ">
+                    <div className="flex bg-white rounded-lg pl-2 pr-10 gap-1.5 md:gap-3 w-[400px] md:w-[32%] items-center">
+                    <img src={items.img1} className="w-[40px]"/>
+                    <p className="font-semibold text-xs md:text-sm xl:text-base ">{items.para1}</p>
+                    </div>
+                    <div className="flex bg-white rounded-lg pl-2 pr-10 gap-1.5 md:gap-3 !w-[400px] md:w-[30%] items-center">
+                    <img src={items.img2} className="w-[40px]"/>
+                    <p className="font-semibold text-xs md:text-sm xl:text-base ">{items.para2}</p>
+                    </div>
+                    <div className="flex bg-white rounded-lg pl-2 pr-12 gap-1.5 md:gap-3 !w-[400px] md:w-[30%] items-center">
+                    <img src={items.img3} className="w-[40px]"/>
+                    <p className="font-semibold text-xs md:text-sm xl:text-base ">{items.para3}</p>
+                    </div>
+                 </div>
+                </div>
+
+            }
 
         </div>
     )
