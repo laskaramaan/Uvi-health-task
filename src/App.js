@@ -8,8 +8,7 @@ function App() {
   return (
     <div className='w-full'>
       <Home/>
-      <Condition/>
-      <Footer/>
+      
     </div>
   );
 }
