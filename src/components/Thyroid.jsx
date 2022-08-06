@@ -23,6 +23,7 @@ function Thyroid() {
           <h2 className="text-xl md:text-2xl text-white ">Your Thyroid Severity is</h2>
           <div className="flex md:flex-col items-center gap-3">
             <div className="w-[120px]">
+              {/* This pre-built function if for circular progression bar  */}
               <CircularProgressbarWithChildren
                 value={70}
                 styles={{

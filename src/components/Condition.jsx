@@ -50,7 +50,9 @@ function Condition() {
     return (
         <div className='w-full bg-[#fff5f5] py-8'>
             <div className='w-11/12 xl:w-9/12 mx-auto flex flex-col  gap-10'>
-                <h2 className='text-xl md:text-2xl xl:text-4xl text-center font-semibold text-[#37503f]'>Your Thyroid Pre-Conditions at a Glance</h2>
+                <h2 className='text-xl md:text-2xl xl:text-4xl text-center font-semibold text-[#37503f]'>
+                    Your Thyroid Pre-Conditions at a Glance
+                </h2>
                 <div className='flex md:flex-row flex-col justify-between gap-3 md:gap-0 '>
                     {
                         arr.map((items, i) => (
