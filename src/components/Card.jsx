@@ -36,7 +36,7 @@ function Card({ items }) {
                     {/* Condition messages */}
                     <p className="font-bold text-xs">{items.msg}</p>
                 </div>
-                
+
 
             </div>
         </>
