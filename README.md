@@ -1,7 +1,7 @@
-This a react.js Landing Page project and for styling I have implemented tailwindcss
+<b>This a react.js Landing Page project and for styling I have implemented tailwindcss</b>
 
-Project Goal:
-Below given design shows desktop and mobile view
+<b>Project Goal:</b>
+Below given design shows desktop and mobile view<br/>
 ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FMySpaceMyJournel%2FTMLC5kyh-m.png?alt=media&token=04f85f89-1ca4-441c-9607-f90dbb96c801)
 
 I divided this complete webpage into small components and all this components are inside "Home.jsx" file in "Pages" folder:
@@ -33,4 +33,4 @@ I divided this complete webpage into small components and all this components ar
 ### Desktop View:<br/>
 &nbsp;![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FMySpaceMyJournel%2F0mGBkvXwtm.png?alt=media&token=9854e22e-64b8-4e42-bf77-5e68241a1fa2)<br/>
 ### Mobile View:<br/>
-&nbsp;![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FMySpaceMyJournel%2F0mGBkvXwtm.png?alt=media&token=9854e22e-64b8-4e42-bf77-5e68241a1fa2)<br/>
+&nbsp;![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FMySpaceMyJournel%2FBXhvQcRSeJ.png?alt=media&token=11ab7222-2216-4eb6-afd5-503be6a02a39)<br/>
