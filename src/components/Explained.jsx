@@ -17,10 +17,37 @@ import plus from '../assets/pic/plus.svg'
 import arrow from '../assets/pic/arrow.svg'
 import Environment from '../assets/pic/Environment.svg'
 import limit from '../assets/pic/limit.svg'
+import Explain from './Explain'
 
 function Explained() {
+    const arr=[{
+        img:Batterylow,
+        value:"66",
+        strokes:"rgba(255, 255, 0, 65)",
+        trails:"rgba(255, 255, 0, 0.4)",
+        title:"Moderate",
+        heading:"Inflammation",
+        paragraph:"Auto-immune conditions or chronic infections can lead to Inflammation in the body. Your body releases anti-bodies that attack the thyroid cells, causing it to make less thyroid hormone leading to hypothyroidism.",
+        img1:check,
+        para1:"Add anti-inflammation foods",
+        img2:cancel,
+        para2:"Practice elimination diet under guidance",
+        img3:food,
+        para3:"Eat nutrient dense foods"
+
+    }]
   return (
-    <div>Explained</div>
+    <div className='py-5 w-full bg-[#fff5f5]'>
+        <h2 className='text-xl md:text-3xl text-center font-bold py-10 text-[#373750]'>
+            Your Thyroid Pre-Conditions explained 
+        </h2>
+        {
+            arr.map((items)=>(
+                <Explain items={items}/>
+            ))
+        }
+        
+    </div>
   )
 }
 
