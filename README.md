@@ -6,10 +6,10 @@ Below given design shows desktop and mobile view
 
 I divided this complete webpage into small components and all this components are inside "Home.jsx" file in "Pages" folder:
 
-1.Thyroid Component
-    Desktop View:
-    ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FMySpaceMyJournel%2FclLoj-PLj_.png?alt=media&token=3bc94c98-1141-4ee9-b9db-92799aca7f96)
-    Mobile View:
+1.Thyroid Component <br/>
+    Desktop View:<br/>
+    ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FMySpaceMyJournel%2FclLoj-PLj_.png?alt=media&token=3bc94c98-1141-4ee9-b9db-92799aca7f96)<br/>
+    Mobile View:<br/>
     - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FMySpaceMyJournel%2FizPtYcfqWf.png?alt=media&token=5956c9f2-db6d-48fa-9a05-b7ffdd2a31f7)
 
 2.Condition Component
